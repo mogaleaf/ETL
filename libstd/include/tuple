@@ -34,7 +34,7 @@
 #ifndef ETL_LIBSTD_TUPLE_
 #define ETL_LIBSTD_TUPLE_
 
-
+inline namespace etl {
 namespace std {
 
 template <typename... Types>
@@ -50,6 +50,8 @@ class tuple {
 } // namespace std
 
 #include <h/tuple.h>
+
+} // namespace etl
 
 
 #endif // ETL_LIBSTD_TUPLE_
